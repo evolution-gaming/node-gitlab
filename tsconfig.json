@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictPropertyInitialization": true,
+
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "dist-tsc/latest"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
